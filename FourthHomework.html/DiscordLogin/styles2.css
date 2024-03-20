@@ -1,0 +1,96 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    height: 450px;
+    margin: 50px auto;
+    background-color: #313338;
+    border-radius: 8px;
+    box-shadow: 0 0 130px rgb(0, 0, 0);
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+body {
+    background-image: url(1291249.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #93979E;
+    text-align: center;
+}
+
+.urlstyle {
+    color: #0B8BCC;
+}
+
+.login-btn {
+    padding: 7px 150px;
+    margin-bottom: 10px;
+    background-color: #5865F2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.QR-code {
+    margin-top: 30px;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+.QR {
+    width: 150px;
+    margin-top: 15px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 25px;
+    width: 334px;
+    background-color: #1E1F22;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #5865F2;
+
+}
+
+.footer {
+    display: block;
+    text-align: left;
+    color: #ccc;
+}
+
+
+.left-box,
+.right-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #313338;
+}
